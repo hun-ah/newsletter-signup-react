@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import FormPage from './pages/Form';
-import SuccessPage from './pages/Success';
+import FormPage from './pages/form/Form';
+import SuccessPage from './pages/success/Success';
 
 function App() {
   return (
