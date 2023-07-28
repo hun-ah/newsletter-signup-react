@@ -9,4 +9,15 @@
 
 body {
   background: var(--charcoal-grey);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+p,
+label {
+  color: var(--slate-grey);
 }
