@@ -1,5 +1,5 @@
 const SuccessPage = () => {
-  return <div></div>;
+  return <div>success</div>;
 };
 
 export default SuccessPage;
