@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 20px;
+  width: 96%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.input {
+  text-indent: 4px;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: var(--charcoal-grey) !important;
+}
+
+.input::placeholder {
+  color: var(--grey);
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--charcoal-grey);
+}
