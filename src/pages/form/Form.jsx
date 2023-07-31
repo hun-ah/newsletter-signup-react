@@ -1,5 +1,6 @@
 import styles from './form.module.css';
 import List from '../../components/list/List';
+import Form from '../../components/form/Form';
 
 const FormPage = () => {
   return (
@@ -10,6 +11,7 @@ const FormPage = () => {
           Join 60,000+ product managers receiving monthly updates on:
         </h2>
         <List />
+        <Form />
       </div>
       <div className={`${styles.right} ${styles.innerDiv}`}></div>
     </div>
