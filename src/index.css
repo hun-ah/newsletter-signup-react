@@ -19,6 +19,7 @@ h1,
 h2,
 p,
 label,
-li {
+li,
+input {
   color: var(--slate-grey);
 }
