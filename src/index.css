@@ -20,6 +20,7 @@ h2,
 p,
 label,
 li,
-input {
+input,
+span {
   color: var(--slate-grey);
 }
