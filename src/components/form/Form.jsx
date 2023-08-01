@@ -15,7 +15,7 @@ const Form = () => {
           id='email'
         />
       </div>
-      <Button text='Subscribe to monthly newsletter' className='newsletter' />
+      <Button text='Subscribe to monthly newsletter' />
     </form>
   );
 };
