@@ -1,16 +1,14 @@
 .button {
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.newsletter {
   padding: 20px;
   border-radius: 8px;
   background: var(--slate-grey);
   color: var(--white);
   font-weight: 700;
+  transition: background-color 0.3s ease-in-out;
 }
-.newsletter:hover {
+
+.button:hover {
   background: linear-gradient(90deg, #fe166f, transparent), #fb5e25;
 }
