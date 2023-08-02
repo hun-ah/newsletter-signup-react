@@ -8,4 +8,17 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  line-height: 1.5;
+}
+
+.checkmark {
+  display: flex;
+  width: 21px;
+  height: 21px;
+}
+
+@media screen and (max-width: 499px) {
+  .listItem {
+    align-items: flex-start;
+  }
 }
