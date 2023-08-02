@@ -11,7 +11,9 @@ const List = () => {
     <ul className={styles.list}>
       {listItems.map((item) => (
         <li key={item} className={styles.listItem}>
-          <Checkmark />
+          <div className={styles.checkmark}>
+            <Checkmark />
+          </div>
           {item}
         </li>
       ))}
