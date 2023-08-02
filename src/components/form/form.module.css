@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 22px;
   margin-top: 20px;
-  width: 96%;
 }
 
 .inputContainer {
@@ -42,4 +41,10 @@ input:-webkit-autofill {
 .input:focus {
   outline: none;
   border: 1px solid var(--charcoal-grey);
+}
+
+@media screen and (min-width: 1001px) {
+  .form {
+    width: 96%;
+  }
 }
