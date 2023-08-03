@@ -11,9 +11,20 @@
   gap: 12px;
 }
 
+.inputLabels {
+  display: flex;
+  justify-content: space-between;
+}
+
 .label {
   font-size: 12px;
   font-weight: 700;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--tomato);
 }
 
 .input {
@@ -21,6 +32,15 @@
   padding: 18px;
   border-radius: 8px;
   border: 1px solid var(--grey);
+}
+
+.inputErr {
+  border: 1px solid var(--tomato);
+  background: #ffe6e5;
+}
+
+.inputErr::placeholder {
+  color: var(--tomato) !important;
 }
 
 input:-webkit-autofill,
