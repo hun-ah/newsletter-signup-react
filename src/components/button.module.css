@@ -12,6 +12,8 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.button:hover {
-  background: linear-gradient(90deg, #fe166f, transparent), #fb5e25;
+@media screen and (min-width: 500px) {
+  .button:hover {
+    background: linear-gradient(90deg, #fe166f, transparent), #fb5e25;
+  }
 }
