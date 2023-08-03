@@ -4,7 +4,7 @@ import { ReactComponent as Checkmark } from '../../assets/icon-list.svg';
 const List = () => {
   const listItems = [
     'Product discovery and building what matters',
-    'Measuring to ensureupdates are a success',
+    'Measuring to ensure updates are a success',
     'And much more!',
   ];
   return (
